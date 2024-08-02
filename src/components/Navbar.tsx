@@ -1,6 +1,6 @@
 import Image from "next/image";
 import navLogo from "@/public/nav_logo.png";
-import { Button } from "./Button";
+import { Button } from "../components/Button";
 
 const Navbar = () => {
   return (
