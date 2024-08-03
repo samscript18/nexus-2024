@@ -36,8 +36,10 @@ export default function Home() {
         <Fold bg1="bg-[#004080]" bg2="bg-white" text="text-[#004080]" />
         <CTA />
       </div>
-      <div className="bg-[#1a1a1a] px-[1rem] md:px-[2rem] lg:px-[4rem] py-8">
-        <Footer />
+      <div className="border-t border-[#262626]">
+        <div className="bg-[#1a1a1a] px-[1rem] md:px-[2rem] lg:px-[4rem] py-8">
+          <Footer />
+        </div>
       </div>
     </main>
   );

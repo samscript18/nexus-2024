@@ -16,27 +16,27 @@ const Fold = ({ bg1, bg2, text }: Props) => {
       }`}
     >
       <div
-        className={`${bg1} p-4 w-[110vw] h-[80px] rotate-[4deg] -translate-x-10`}
+        className={`${bg1} p-4 w-[110vw] h-[68px] md:h-[80px] rotate-[4deg] -translate-x-8 md:-translate-x-10`}
       ></div>
       <div
-        className={`${bg2} p-4 w-[110vw] rotate-[-4deg] -translate-y-20 -translate-x-10 flex`}
+        className={`${bg2} p-4 w-[110vw] rotate-[-4deg] -translate-y-14 md:-translate-y-20 -translate-x-8 md:-translate-x-10 flex`}
       >
-        <div className="w-full flex justify-center items-center animate-marquee md:gap-4 gap-1">
+        <div className="w-full flex justify-center items-center animate-marquee md:gap-4 gap-[2px]">
           {text === "text-white" ? (
             <Image
               src={img}
               alt="dot"
-              className="md:w-[40px] md:h-[40px] w-[25px] h-[25px]"
+              className="md:w-[40px] md:h-[40px] w-[20px] h-[20px]"
             />
           ) : (
             <Image
               src={img_2}
               alt="dot"
-              className="md:w-[40px] md:h-[40px] w-[25px] h-[25px]"
+              className="md:w-[40px] md:h-[40px] w-[20px] h-[20px]"
             />
           )}
           <h1
-            className={`text-[1.05rem] md:text-[2rem] lg:text-[2.5rem] ${text} text-center font-extrabold`}
+            className={`text-[.85rem] md:text-[2rem] lg:text-[2.5rem] ${text} text-center font-extrabold`}
           >
             NEXUS is starting with the Brown roof city of Ibadan{" "}
           </h1>

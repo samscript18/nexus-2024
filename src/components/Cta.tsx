@@ -5,15 +5,15 @@ import logo from "@/public/Logo.png";
 
 const CTA = () => {
   return (
-    <div className="relative pt-8 pb-[1rem] px-[1rem] lg:px-[4rem] md:px-[2rem]">
-      <div className="flex justify-between items-center gap-[100px] pb-[4rem]">
-        <div className="lg:max-w-[640px] w-full">
+    <div className="relative pt-4 md:pt-8 pb-[1rem] px-[1rem] lg:px-[4rem] md:px-[2rem]">
+      <div className="flex flex-col md:flex-row justify-between items-center gap-6 md:gap-[100px] pb-[4rem]">
+        <div className="lg:max-w-[640px] w-full text-center md:text-start">
           <h1 className="lg:text-7xl md:text-6xl text-4xl text-white font-bold lg:leading-[120px] md:leading-[80px]">
             We hope to see you there!
           </h1>
         </div>
-        <Button className="bg-[#004080] text-white w-[300px] md:w-[200px]" />
-        <div className="absolute top-[25%] right-[35%] lg:top-[5%] lg:right-[33%] md:top-[12%] md:right-[25%]">
+        <Button className="bg-[#004080] text-white w-[200px]" />
+        <div className="hidden md:flex absolute top-[25%] right-[35%] lg:top-[5%] lg:right-[33%] md:top-[12%] md:right-[25%]">
           <Image
             src={arrowImg}
             alt="arrow-img"
