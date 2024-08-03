@@ -1,10 +1,16 @@
-export const Button = () => {
+import { HiMiniArrowUpRight } from "react-icons/hi2";
+
+interface Props {
+  className: string;
+}
+
+export const Button = ({ className }: Props) => {
   return (
     <button
       type="button"
-      className="bg-[#004080] text-[1.05rem] text-white py-4 px-8 rounded-md uppercase"
+      className={`${className} text-[.95rem] md:text-[1rem] lg:text-[1.05rem] font-semibold py-3 px-4 rounded-md uppercase`}
     >
-      Register ↗
+      Register <HiMiniArrowUpRight size={28} className={`inline-flex`} />
     </button>
   );
 };

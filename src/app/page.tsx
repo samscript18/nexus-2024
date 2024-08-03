@@ -1,15 +1,27 @@
-import { Navbar, Header, About, Connection, Hedge,Vision } from "../components";
+import { MdArrowUpward } from "react-icons/md";
+import {
+  Navbar,
+  Header,
+  About,
+  Connection,
+  Fold,
+  Vision,
+  Room,
+  WhereAndWhen,
+  CTA,
+  Footer,
+} from "../components";
 export default function Home() {
   return (
-    <main>
-      <div className="bg-[#1a1a1a] px-[4rem] py-4">
+    <main className="overflow-hidden">
+      <div className="relaive bg-[#1a1a1a]">
         <Navbar />
         <Header />
       </div>
       <div className="bg-[#1a1a1a]">
-        <Hedge />
+        <Fold bg1="bg-[#262626]" bg2="bg-[#00A99D]" text="text-white" />
       </div>
-      <div className="bg-[#1a1a1a] px-[4rem] py-4">
+      <div className="bg-[#1a1a1a] px-[1rem] md:px-[2rem] lg:px-[4rem] py-4">
         <About />
       </div>
       <div className="bg-[#F3FFFE]">
@@ -17,6 +29,15 @@ export default function Home() {
       </div>
       <div className="bg-[#1a1a1a]">
         <Vision />
+        <Room />
+      </div>
+      <WhereAndWhen />
+      <div className="bg-[#1a1a1a]">
+        <Fold bg1="bg-[#004080]" bg2="bg-white" text="text-[#004080]" />
+        <CTA />
+      </div>
+      <div className="bg-[#1a1a1a] px-[1rem] md:px-[2rem] lg:px-[4rem] py-8">
+        <Footer />
       </div>
     </main>
   );

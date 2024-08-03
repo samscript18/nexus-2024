@@ -1,4 +1,10 @@
 import type { Config } from "tailwindcss";
+// import { Roboto_Condensed } from "next/font/google";
+
+// const roboto_condensed = Roboto_Condensed({
+//   subsets: ["latin"],
+//   weight: ["300", "400", "700"],
+// });
 
 const config: Config = {
   content: [
@@ -13,11 +19,19 @@ const config: Config = {
           "0%": { transform: "translateX(100%)" },
           "100%": { transform: "translateX(-100%)" },
         },
-      },
-      animation: {
-        marquee: "marquee 7s linear infinite",
+        scale: {
+          "0%": { transform: "scale(0.5)" },
+          "100%": { transform: "scale(1)" },
+        },
       },
     },
+    animation: {
+      marquee: "marquee 7s linear infinite",
+      scale: "scale 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both",
+    },
+    // fontFamily: {
+    //   roboto_condensed,
+    // },
   },
   plugins: [],
 };
