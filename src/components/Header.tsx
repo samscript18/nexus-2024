@@ -19,7 +19,7 @@ const Header = () => {
             <Image
               src={nexus_2}
               alt="2024"
-              className="flex absolute top-[25%] right-[5%] md:hidden w-[104px] h-[60px]"
+              className="flex absolute top-[27%] right-[5%] md:hidden w-[104px] h-[60px]"
             />
           </div>
           <Image
@@ -41,14 +41,14 @@ const Header = () => {
           className="hidden md:flex md:mb-[5rem] lg:mb-[2rem] mb-[18rem] w-[104px] h-[60px] md:w-[220px] md:h-[138px] lg:w-[400px] lg:h-[180px]"
         />
       </div>
-      <div className="absolute top-[21%] right-[32%] md:top-[23%] md:right-[18%] lg:top-[30%] lg:right-[31.5%]">
+      <div className="absolute top-[22%] right-[32%] md:top-[23%] md:right-[18%] lg:top-[30%] lg:right-[31.5%]">
         <Image
           src={img}
           alt="google"
           className="w-[104px] h-[63px] md:w-[249px] md:h-[167px] lg:w-[400px] lg:h-[260px]"
         />
       </div>
-      <div className="absolute top-[23%] right-[1%] md:top-[33%] lg:top-[55%] lg:right-[2%] md:right-[-1%]">
+      <div className="absolute top-[24%] right-[1%] md:top-[33%] lg:top-[55%] lg:right-[2%] md:right-[-1%]">
         <Image
           src={img_2}
           alt="2024"
