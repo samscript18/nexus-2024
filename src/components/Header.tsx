@@ -30,7 +30,7 @@ const Header = () => {
           <h3 className="pt-[4rem] pb-6 text-[1.15rem] text-white leading-[30px]">
             NEXUS is a project of NEXT (New Evolutionaries, Xplorers, and
             Thinkers), on innovative EdTech startup poised to transform the
-            educational landscape, serving as a consult between industrial and
+            educational landscape, serving as a conduit between industrial and
             intelligence ages.
           </h3>
           <Button className="bg-[#004080] text-white" />
