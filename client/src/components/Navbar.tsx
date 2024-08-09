@@ -11,6 +11,7 @@ const Navbar = () => {
   const [isActive, setIsActive] = useState<boolean>(true);
   const [index, setIndex] = useState<number>(1);
   const [toggleMenu, setToggleMenu] = useState<boolean>(false);
+
   return (
     <div className="fixed w-full bg-[#1a1a1a] lg:relative md:px-[2rem] lg:px-[4rem] md:pt-4 z-30">
       <nav

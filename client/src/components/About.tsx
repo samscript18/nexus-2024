@@ -18,7 +18,7 @@ const About = () => {
         innovators set to make a lasting impact.
       </p>
       <p className="text-white text-[1.15rem] md:text-[1.2rem] leading-[30px]">
-        Our team is led by young visionaries, including our founder, a
+        Our team consist of young visionaries, including our founder, a
         final-year student from the University of Ibadan, who, alongside a team
         of daring young individuals, is committed to dreaming big and driving
         significant change. We believe in the power of technology, creativity,

@@ -13,7 +13,7 @@ const Connection = () => {
         <div className="lg:max-w-[500px] w-full text-center md:text-start">
           <p className="text-[1.5rem] font-bold mb-6 leading-[50px]">
             The fusion of possibilities that{" "}
-            <span className="md:mx-12">can</span>
+            <span className="md:mx-12">can </span>
             birth extraordinary outcomes. It is{" "}
             <span className="md:mx-12">the</span> birthplace{" "}
             <span className="md:mx-12">of</span> creativity.

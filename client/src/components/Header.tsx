@@ -7,7 +7,7 @@ import img_2 from "@/public/Group 5.png";
 
 const Header = () => {
   return (
-    <header className="pt-[8rem] md:pt-[12rem] lg:pt-[3.5rem] px-[1rem] md:px-[2rem] lg:px-[4rem] pb-[4rem]">
+    <header className="pt-[8rem] md:pt-[12rem] lg:pt-[10rem] px-[1rem] md:px-[2rem] lg:px-[4rem] pb-[4rem]">
       <div className="flex justify-between items-end pt-6 md:pt-0">
         <div className="lg:max-w-[480px] md:max-w-[400px] w-full">
           <div className="flex md:hidden mb-4">
@@ -19,7 +19,7 @@ const Header = () => {
             <Image
               src={nexus_2}
               alt="2024"
-              className="flex absolute top-[27%] right-[5%] md:hidden w-[104px] h-[60px]"
+              className="flex absolute top-[34%] right-[5%] md:hidden w-[104px] h-[60px]"
             />
           </div>
           <Image
@@ -38,20 +38,20 @@ const Header = () => {
         <Image
           src={nexus_2}
           alt="2024"
-          className="hidden md:flex md:mb-[5rem] lg:mb-[2rem] mb-[18rem] w-[104px] h-[60px] md:w-[220px] md:h-[138px] lg:w-[400px] lg:h-[180px]"
+          className="hidden md:flex md:mb-[5rem] lg:mb-[2rem] md:w-[250px] md:h-[138px] lg:w-[400px] lg:h-[180px]"
         />
       </div>
-      <div className="absolute top-[22%] right-[32%] md:top-[23%] md:right-[18%] lg:top-[30%] lg:right-[31.5%]">
+      <div className="absolute top-[27%] right-[32%] md:top-[42%] md:right-[26%] lg:top-[36%] lg:right-[36%]">
         <Image
           src={img}
           alt="google"
-          className="w-[104px] h-[63px] md:w-[249px] md:h-[167px] lg:w-[400px] lg:h-[260px]"
+          className="w-[104px] h-[63px] md:w-[164px] md:h-[123px] lg:w-[300px] lg:h-[180px]"
         />
       </div>
-      <div className="absolute top-[24%] right-[1%] md:top-[33%] lg:top-[55%] lg:right-[2%] md:right-[-1%]">
+      <div className="absolute top-[31%] right-[1%] md:top-[54%] md:right-[-1%] lg:top-[51%] lg:right-[2%]">
         <Image
           src={img_2}
-          alt="2024"
+          alt="three-thingy"
           className="w-[20px] h-[18px] md:w-[51px] md:h-[49px]"
         />
       </div>

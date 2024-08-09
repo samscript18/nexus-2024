@@ -14,7 +14,7 @@ import {
 export default function Home() {
   return (
     <main className="overflow-hidden">
-      <div className="relaive bg-[#1a1a1a]">
+      <div className="relative bg-[#1a1a1a]">
         <Navbar />
         <Header />
       </div>
