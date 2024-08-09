@@ -7,7 +7,7 @@ import img_2 from "@/public/Group 5.png";
 
 const Header = () => {
   return (
-    <header className="pt-[8rem] md:pt-[12rem] lg:pt-[10rem] px-[1rem] md:px-[2rem] lg:px-[4rem] pb-[4rem]">
+    <header className="pt-[8rem] md:pt-[12rem] lg:pt-[3.5rem] px-[1rem] md:px-[2rem] lg:px-[4rem] pb-[4rem]">
       <div className="flex justify-between items-end pt-6 md:pt-0">
         <div className="lg:max-w-[480px] md:max-w-[400px] w-full">
           <div className="flex md:hidden mb-4">
